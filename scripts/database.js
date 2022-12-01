@@ -2,327 +2,327 @@ const database = {
   items: [
     {
       id: 1,
-      name: 'Milk',
+      name: "Milk",
       categoryId: 1,
     },
     {
       id: 2,
-      name: 'Butter',
+      name: "Butter",
       categoryId: 1,
     },
     {
       id: 3,
-      name: 'Eggs',
+      name: "Eggs",
       categoryId: 1,
     },
     {
       id: 4,
-      name: 'Sparkling water',
+      name: "Sparkling water",
       categoryId: 1,
     },
     {
       id: 5,
-      name: 'Mayonnaise',
+      name: "Mayonnaise",
       categoryId: 1,
     },
     {
       id: 6,
-      name: 'Ketchup',
+      name: "Ketchup",
       categoryId: 1,
     },
     {
       id: 7,
-      name: 'Mustard',
+      name: "Mustard",
       categoryId: 1,
     },
     {
       id: 8,
-      name: 'Jam',
+      name: "Jam",
       categoryId: 1,
     },
     {
       id: 9,
-      name: 'Garlic',
+      name: "Garlic",
       categoryId: 1,
     },
     {
       id: 10,
-      name: 'Cheese',
+      name: "Cheese",
       categoryId: 1,
     },
     {
       id: 11,
-      name: 'Flour',
+      name: "Flour",
       categoryId: 2,
     },
     {
       id: 12,
-      name: 'Sugar',
+      name: "Sugar",
       categoryId: 2,
     },
     {
       id: 13,
-      name: 'Honey',
+      name: "Honey",
       categoryId: 2,
     },
     {
       id: 14,
-      name: 'Olive Oil',
+      name: "Olive Oil",
       categoryId: 2,
     },
     {
       id: 15,
-      name: 'Coffee',
+      name: "Coffee",
       categoryId: 2,
     },
     {
       id: 16,
-      name: 'Salt',
+      name: "Salt",
       categoryId: 2,
     },
     {
       id: 17,
-      name: 'Pepper',
+      name: "Pepper",
       categoryId: 2,
     },
     {
       id: 18,
-      name: 'Broth',
+      name: "Broth",
       categoryId: 2,
     },
     {
       id: 19,
-      name: 'Rice',
+      name: "Rice",
       categoryId: 2,
     },
     {
       id: 20,
-      name: 'Pasta',
+      name: "Pasta",
       categoryId: 2,
     },
     {
       id: 21,
-      name: 'Baking Soda',
+      name: "Baking Soda",
       categoryId: 2,
     },
     {
       id: 22,
-      name: 'Chips',
+      name: "Chips",
       categoryId: 2,
     },
     {
       id: 23,
-      name: 'Cereal',
+      name: "Cereal",
       categoryId: 2,
     },
     {
       id: 24,
-      name: 'Bread',
+      name: "Bread",
       categoryId: 2,
     },
     {
       id: 25,
-      name: 'Hand soap',
+      name: "Hand soap",
       categoryId: 3,
     },
     {
       id: 26,
-      name: 'Dish Soap',
+      name: "Dish Soap",
       categoryId: 3,
     },
     {
       id: 27,
-      name: 'Paper towels',
+      name: "Paper towels",
       categoryId: 3,
     },
     {
       id: 28,
-      name: 'Garbage bags',
+      name: "Garbage bags",
       categoryId: 3,
     },
     {
       id: 29,
-      name: 'Ziplock bags',
+      name: "Ziplock bags",
       categoryId: 3,
     },
     {
       id: 30,
-      name: 'Laundry Detergent',
+      name: "Laundry Detergent",
       categoryId: 3,
     },
     {
       id: 31,
-      name: 'Sponges',
+      name: "Sponges",
       categoryId: 3,
     },
     {
       id: 32,
-      name: 'Windex',
+      name: "Windex",
       categoryId: 3,
     },
     {
       id: 33,
-      name: 'All purpose cleaner',
+      name: "All purpose cleaner",
       categoryId: 3,
     },
     {
       id: 34,
-      name: 'Toilet paper',
+      name: "Toilet paper",
       categoryId: 3,
     },
     {
       id: 35,
-      name: 'Ibuprofen',
+      name: "Ibuprofen",
       categoryId: 4,
     },
     {
       id: 36,
-      name: 'Tylenol',
+      name: "Tylenol",
       categoryId: 4,
     },
     {
       id: 37,
-      name: 'Band-aids',
+      name: "Band-aids",
       categoryId: 4,
     },
     {
       id: 38,
-      name: 'Rubbing alcohol',
+      name: "Rubbing alcohol",
       categoryId: 4,
     },
     {
       id: 39,
-      name: 'Hydrogen peroxide',
+      name: "Hydrogen peroxide",
       categoryId: 4,
     },
     {
       id: 40,
-      name: 'Sunscreen',
+      name: "Sunscreen",
       categoryId: 4,
     },
     {
       id: 41,
-      name: 'Vitamins',
+      name: "Vitamins",
       categoryId: 4,
     },
     {
       id: 42,
-      name: 'Neosporin',
+      name: "Neosporin",
       categoryId: 4,
     },
     {
       id: 44,
-      name: 'Cotton swabs',
+      name: "Cotton swabs",
       categoryId: 5,
     },
     {
       id: 45,
-      name: 'Shampoo',
+      name: "Shampoo",
       categoryId: 5,
     },
     {
       id: 46,
-      name: 'Conditioner',
+      name: "Conditioner",
       categoryId: 5,
     },
     {
       id: 47,
-      name: 'Lotion',
+      name: "Lotion",
       categoryId: 5,
     },
     {
       id: 48,
-      name: 'Toothpaste',
+      name: "Toothpaste",
       categoryId: 5,
     },
     {
       id: 49,
-      name: 'Floss',
+      name: "Floss",
       categoryId: 5,
     },
     {
       id: 50,
-      name: 'Body wash',
+      name: "Body wash",
       categoryId: 5,
     },
     {
       id: 51,
-      name: 'Deodorant',
+      name: "Deodorant",
       categoryId: 5,
     },
     {
       id: 52,
-      name: 'Batteries',
+      name: "Batteries",
       categoryId: 6,
     },
     {
       id: 53,
-      name: 'Lightbulbs',
+      name: "Lightbulbs",
       categoryId: 6,
     },
     {
       id: 54,
-      name: 'Matches',
+      name: "Matches",
       categoryId: 6,
     },
     {
       id: 55,
-      name: 'Duct tape',
+      name: "Duct tape",
       categoryId: 6,
     },
     {
       id: 56,
-      name: 'Air filters',
+      name: "Air filters",
       categoryId: 6,
     },
     {
       id: 57,
-      name: 'Super glue',
+      name: "Super glue",
       categoryId: 6,
     },
   ],
   categories: [
     {
       id: 1,
-      name: 'Fridge & Freezer',
+      name: "Fridge & Freezer",
     },
     {
       id: 2,
-      name: 'Pantry',
+      name: "Pantry",
     },
     {
       id: 3,
-      name: 'Household',
+      name: "Household",
     },
     {
       id: 4,
-      name: 'Health',
+      name: "Health",
     },
     {
       id: 5,
-      name: 'Toiletries',
+      name: "Toiletries",
     },
     {
       id: 6,
-      name: 'Maintenance',
+      name: "Maintenance",
     },
   ],
   stores: [
     {
       id: 1,
-      name: 'Kroger',
+      name: "Kroger",
     },
     {
       id: 2,
-      name: 'Target',
+      name: "Target",
     },
     {
       id: 3,
-      name: 'Walmart',
+      name: "Walmart",
     },
     {
       id: 4,
-      name: 'Publix',
+      name: "Publix",
     },
   ],
   storeItems: [
@@ -1344,4 +1344,85 @@ const database = {
   lists: [],
   listItems: [],
   selectedStoreId: 0,
-}
+};
+
+export const getStores = () => {
+  return database.stores.map((store) => ({ ...store }));
+};
+
+export const getCategories = () => {
+  return database.categories.map((category) => ({ ...category }));
+};
+
+export const getItems = () => {
+  return database.items.map((item) => ({ ...item }));
+};
+
+export const getStoreItems = () => {
+  return database.storeItems.map((item) => ({ ...item }));
+};
+
+export const getLists = () => {
+  return database.lists.map((list) => ({ ...list }));
+};
+
+export const getSelectedStoreId = () => {
+  return database.selectedStoreId;
+};
+
+export const setList = () => {
+  let newList = {
+    id: database.lists.length + 1,
+    storeId: getSelectedStoreId(),
+    created: new Date().toString().slice(0, 15),
+  };
+  for (let item of database.listItems) {
+    if (item.listId === database.lists.length + 1) {
+      database.lists.push(newList);
+      setSelectedStoreId(0);
+      console.log(database.lists);
+      break;
+    }
+  }
+};
+
+export const setListItem = (id) => {
+  let newObj = {
+    id: database.listItems.length + 1,
+    itemId: id,
+    listId: database.lists.length + 1,
+  };
+  database.listItems.push(newObj);
+  console.log(database.listItems);
+};
+
+export const unsetListItem = (id) => {
+  for (let item of database.listItems) {
+    if (item.itemId === id && item.listId === database.lists.length + 1) {
+      let index = database.listItems.indexOf(item);
+      if (index > -1) {
+        database.listItems.splice(index, 1);
+      }
+    }
+  }
+  console.log(database.listItems);
+};
+
+export const resetListItems = () => {
+  for (let i = 0; i < database.listItems.length; i++) {
+    let item = database.listItems[i];
+    if (item.listId === database.lists.length + 1) {
+      let index = database.listItems.indexOf(item);
+      if (index > -1) {
+        database.listItems.splice(index, 1);
+        console.log("removed item!");
+        i--;
+      }
+    }
+  }
+};
+
+export const setSelectedStoreId = (id) => {
+  database.selectedStoreId = id;
+  document.dispatchEvent(new CustomEvent("stateChanged"));
+};
