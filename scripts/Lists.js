@@ -1,4 +1,5 @@
 import { setList, getLists, getStores } from "./database.js";
+import { ListItems } from "./ListItems.js";
 
 export const Lists = () => {
   let lists = getLists();
@@ -9,6 +10,7 @@ export const Lists = () => {
     for (let store of stores) {
       if (list.storeId === store.id) {
         html += `<li>${store.name}: ${list.created}</li>`;
+        html += `${ListItems(list.id)}`
       }
     }
   }
@@ -17,7 +19,6 @@ export const Lists = () => {
 };
 
 document.addEventListener("click", (event) => {
-  // console.log(event.target.name)
   if (event.target.name === "submit") {
     setList();
   }

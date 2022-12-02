@@ -1341,8 +1341,20 @@ const database = {
       price: 3.99,
     },
   ],
-  lists: [],
-  listItems: [],
+  lists: [
+    {
+      id: 1,
+      storeId: 1,
+      created: "December 02 yabish"
+    }
+  ],
+  listItems: [
+    {
+      id: 1,
+      itemId: 1,
+      listId: 1
+    }
+  ],
   selectedStoreId: 0,
 };
 
@@ -1364,6 +1376,10 @@ export const getStoreItems = () => {
 
 export const getLists = () => {
   return database.lists.map((list) => ({ ...list }));
+};
+
+export const getListItems = () => {
+  return database.listItems.map((item) => ({ ...item }));
 };
 
 export const getSelectedStoreId = () => {
