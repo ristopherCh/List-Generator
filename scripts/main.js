@@ -3,6 +3,7 @@ import { Categories } from "./Categories.js";
 import { getSelectedStoreId, getLists } from "./database.js";
 import { Lists } from "./Lists.js";
 import { ListItems } from "./ListItems.js";
+import { collapsibleAssignments } from "./Lists.js";
 
 export const App = () => {
   let html = `
@@ -29,8 +30,13 @@ const renderApp = () => {
 };
 
 renderApp();
+collapsibleAssignments();
 
 document.addEventListener("stateChanged", (event) => {
   console.log("State of data has changed. Regenerating HTML...");
   renderApp();
+  collapsibleAssignments();
 });
+
+
+

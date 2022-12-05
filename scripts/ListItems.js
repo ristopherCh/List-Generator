@@ -13,7 +13,7 @@ export const ListItems = (listId) => {
     for (let item of items) {
       if (listItem.itemId === item.id) {
         if (listId === listItem.listId) {
-          html += `<div>${item.name}</div>`;
+          html += `<li>${item.name}</li>`;
         }
       }
     }

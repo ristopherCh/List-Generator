@@ -1345,7 +1345,7 @@ const database = {
     {
       id: 1,
       storeId: 1,
-      created: "December 02 yabish"
+      created: "Thu Dec 01 2022"
     }
   ],
   listItems: [
