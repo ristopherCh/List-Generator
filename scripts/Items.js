@@ -16,8 +16,10 @@ export const Items = (categoryId, selectedStoreId) => {
         item.categoryId === categoryId
       ) {
         html += `
-        <input type='checkbox' id='item--${item.id}' name='item' value='item--${item.id}'"
-        <label for='item--${item.id}'>${item.name}</label><br>
+        <label class='checkbox-container'>${item.name}
+          <input type='checkbox' id='item--${item.id}' name='item' value='item--${item.id}'">
+          <span class="box-span"></span>
+        </label>
         `;
       }
     }
